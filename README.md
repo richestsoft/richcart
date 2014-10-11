@@ -1,0 +1,4 @@
+richcart-core
+=============
+
+Richcommerce Core
