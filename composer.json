@@ -1,5 +1,5 @@
 {
-    "name" : "richestsoft/richcart-core",
+    "name" : "richestsoft/richcart",
     "description" : "e-commerce solution",
     "keywords" : ["richestsoft", "richcommerce", "richcart"],
     "license" : "GNU",
@@ -23,14 +23,12 @@
 },
 
 "autoload": {
-    "classmap" : [
-        "base/controllers",
-        "base/models"
-    ],
+    
     "psr-0" : {
 "Richcommerce" : "src/"
 }
 
-}
+},
+ "minimum-stability": "dev"
 
 }
