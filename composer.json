@@ -4,22 +4,23 @@
     "keywords" : ["richestsoft", "richcommerce", "richcart"],
     "license" : "GNU",
     "type" : "project",
-    authors": [
-{
-"name": "RichestSoft",
+    "authors": [
+    {
+    "name": "RichestSoft",
 "email": "info@richestsoft.com",
 "homepage": "http://richestsoft.com",
 "role": "WWW Services"
 }
 ],
+
 "require": {
 "php": ">=5.5.0",
 "classpreloader/classpreloader" : "~1.0",
 "monolog/monolog" : "~1.6"
-}
+},
 "require-dev" : {
 "phpunit/phpunit" : "~4.0"
-}
+},
 
 "autoload": {
     "classmap" : [
@@ -30,10 +31,11 @@
 "Richcommerce" : "src/"
 }
 
-}
+},
 "extra": {
 "branch-alias": {
 "dev-master": "1.0-dev"
 }
-},
+}
+
 }
